@@ -1,0 +1,59 @@
+
+html, body, #map-canvas {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.loading_overlay{
+	
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #fff;
+	opacity: 0.6;
+	z-index: 100;
+}
+
+#map{
+	
+	width: 100%;
+}
+
+ #map-canvas {
+ 	width: 100%;
+ 	height: 100%;
+ 	display: block;
+ 	
+
+ }
+
+#nav{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	background-color: #C90F0D;
+	position: static;
+	
+
+}
+
+
+
+#logo{
+	
+	position: absolute;
+	top: 13px;
+	z-index: 1000;
+	left: 20px;
+	-moz-box-shadow: 0 1px 2px black;
+	box-shadow: 0 1px 2px black;
+	border-radius: 5px;
+}
+
+.fileinput{
+	
+	position: absolute;
+	top: 0px;
+}
